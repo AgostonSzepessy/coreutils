@@ -1,0 +1,15 @@
+[package]
+name = "dd"
+version = "0.0.1"
+authors = []
+
+[lib]
+name = "uu_dd"
+path = "dd.rs"
+
+[dependencies]
+uucore = { path="../uucore" }
+
+[[bin]]
+name = "dd"
+path = "main.rs"
